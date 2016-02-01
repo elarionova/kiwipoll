@@ -1,0 +1,169 @@
+.poll_gallery
+{
+	width:auto;
+	overflow: hidden;
+	position:relative;
+	white-space: nowrap;
+}
+
+.poll_gallery_cell
+{
+	display: inline-block;
+	vertical-align: top;
+	height: 300px;
+	width:250px;
+	overflow:hidden;
+	border: 1px solid #36802D;
+	border-radius: 5px;
+	margin: 10px 2px 10px 10px;
+	white-space: normal;
+	position:relative;
+}
+.poll_over
+{
+	position:absolute;
+	width:100%;
+	height:calc(100% - 30px);
+	opacity:0;
+	cursor: pointer;
+}
+
+.poll_gallery_cell:hover
+{
+	box-shadow: 0 0 10px rgba(119,171,89,1);
+}
+
+.arrow_left, .arrow_right
+{
+	display:block;
+	position:absolute;
+	width:60px;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	top:0;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.arrow_left:hover, .arrow_right:hover
+{
+	background-color: rgba (119,171,89,0.7);
+}
+
+.arrow_left
+{
+	left:0;
+	background-image: url("i/ic_chevron_left_black_48dp.png"); 
+}
+
+.arrow_right
+{
+	right:0;
+	background-image: url("i/ic_chevron_right_black_48dp.png");
+}
+
+.pass
+{
+	width: 94%;
+	text-align: center;
+	margin: 5% 0;
+	padding: 3%;
+	color: #36802D;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.gallery_cell_footer
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	border-top: 1px solid #234D20;
+	padding: 3px 3px;
+}
+
+
+.gallery_cell_footer_cell
+{
+	display:inline-block;
+	cursor:pointer;
+	vertical-align: middle;
+	
+
+}
+
+.gallery_cell_footer_cell:last-child
+{
+	float: right;
+	width:auto;
+}
+
+div.label
+{
+	display:inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #36802D;
+	padding-right:10px;
+}
+
+.sm_vk, .sm_fb, .sm_tw, .sm_account, .sm_heart
+{
+	width:24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sm_fb
+{
+	background-image: url("i/ic_facebook_black_18dp.png");
+}
+
+.sm_vk
+{
+	background-image: url("i/ic_vk_black_18dp.png");
+}
+
+.sm_tw
+{
+	background-image: url("i/ic_twitter_black_18dp.png");
+}
+
+.sm_heart
+{
+	background-image: url("i/ic_heart_black_18dp.png");
+}
+
+.sm_account
+{
+	background-image: url("i/ic_account_black_18dp.png");
+}
+
+.poll_author, .poll_date
+{
+	display:block;
+	width:97%;
+	text-align: right;
+	margin-right: 3%;
+	font-style: italic;
+}
+
+.poll_date
+{
+	color: #272727;
+}
+
+.cancel_notification, .cancel_date
+{
+	display: block;
+	width:100%;
+	text-align: center;
+}
+
+

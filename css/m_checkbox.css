@@ -1,0 +1,30 @@
+@media (max-device-width: 1023px)
+{
+	.switcher:not(checked) + label 
+	{
+
+		padding: 5px 0 0 120px; 
+		font-size: 30px;
+	}	
+	.switcher:not(checked) + label:before {
+	top: 2px;
+	left: 0;
+	width: 90px;
+	height: 45px;
+
+	}
+
+	.switcher:not(checked) + label:after {
+	top: 3px;
+	left: 2px;
+	width: 40px;
+	height: 42px;
+	}
+
+	.switcher:checked + label:after {
+	left: 48px;
+	}
+
+
+}
+

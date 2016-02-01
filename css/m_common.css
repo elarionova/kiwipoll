@@ -1,0 +1,41 @@
+@media (max-device-width: 1023px), (max-width:700px)
+{
+	div.content
+	{
+		display:inline-block;
+		width:100%;
+		margin-left:0px;
+		border: none;
+	}
+
+}
+
+
+@media (max-device-width: 1023px)
+{
+	div.notification
+	{
+		font-size:25px;
+	}
+
+	h1
+	{
+		font-size: 3em;
+	}
+
+	h3
+	{
+		font-size: 2em;	
+	}
+
+	input
+	{
+		font-size: 30px;
+		box-shadow: 0 0px 3px rgba(0,0,0,1);
+	}
+
+	.button, .back
+	{
+		font-size: 30px;
+	}
+}

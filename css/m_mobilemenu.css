@@ -1,0 +1,138 @@
+@media (max-device-width: 1023px), (max-width:700px)
+{
+	.mobile_menu
+	{
+		display: block;
+		width:100%;
+		height:auto;
+		background-color: #FFFFFF;
+		border-bottom: 1px solid rgb(151, 173, 188);
+		text-align: right;
+		position: absolute;
+		z-index: 1000;
+
+	}
+
+	.mobile_menu_cell
+	{
+		display:inline-block;
+		vertical-align: middle;
+		font-size: 30px;
+		padding: 10px;
+
+	}
+
+	.burger
+	{
+		cursor:pointer;
+		width: 50px;
+	}
+	.lang
+	{
+		font-size: 30px;
+		cursor:pointer;
+		font-weight: bold;
+	}
+
+	.active_lang
+	{
+		color: #CDD1DA;
+		cursor:default;
+		font-weight: normal;
+	}
+
+	.burger_wrapper
+	{
+		position: absolute;
+		width: 60px;
+		height: 100px;
+		top:10px;
+		right:0;
+		background-color: red;
+		cursor:pointer;
+		
+
+
+	}
+
+	.burger_cell
+	{
+		cursor:pointer;
+		font-size:25px;
+		border-bottom: 1px solid rgb(151, 173, 188);
+	}
+
+	.burger_cell:hover, .burger_cell_active
+	{
+		background-color: #F0F7DA;
+	}
+
+	
+
+
+	.burger_cell_title
+	{
+		display: inline-block;
+		vertical-align: middle;
+		padding: 5px 0px 5px 20px;
+		width: calc(100% - 60px);
+		text-align: left;
+
+	}
+
+	.burger_cell_arrow
+	{
+		display: inline-block;
+		vertical-align: middle;
+		width:30px;
+		height: 30px;
+		background-image: url("i/ic_menu_down_black_24dp.png");
+		background-position: left; 
+	}
+
+	.burger_submenu
+	{
+		position:absolute;
+		top:-99999px;
+		left:0;
+		width:100%;
+		background-color: #FFFFFF;
+		transition: 0.4s top linear;
+		z-index:10;
+		display: block;
+	}
+
+	 .burger_submenu_active 
+	{
+		top:71px;
+		transition: 25s top  linear;
+		position:absolute;
+		left:0;
+		width:100%;
+		background-color: #FFFFFF;
+		z-index:10;
+		display: block;	
+	}
+
+	
+	
+
+
+}
+
+
+@media (max-device-width: 1023px)
+{
+	.mobile_menu_cell
+	{
+		font-size: 35px;	
+	}
+	.lang
+	{
+		font-size: 35px;
+	}
+	.burger_cell
+	{
+		font-size:30px;
+	}
+}

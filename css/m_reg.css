@@ -1,0 +1,33 @@
+@media (max-device-width: 1023px)
+{
+	._form_line_cell:nth-child(1), ._form_line_cell:nth-child(2), ._form_line_cell:nth-child(3)
+	{
+		font-size: 30px;	
+	}
+
+	.region_dropdown
+	{
+		font-size: 30px;
+	}
+
+
+}
+
+
+@media (max-device-width: 1023px), (max-width:950px)
+{
+	._form_line_cell
+	{
+		display:block;
+		margin-bottom: 10px;
+	}
+	._form_line_cell:nth-child(1), ._form_line_cell:nth-child(2), ._form_line_cell:nth-child(3)
+	{
+		width: 90%;	
+	}
+	/*.region_dropdown
+	{
+		margin-top: -1%;
+	}*/
+
+}

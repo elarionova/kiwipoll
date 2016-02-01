@@ -1,0 +1,23 @@
+
+
+@media (max-device-width: 1023px)
+{
+	.tapebutton:not(checked) + label 
+	{
+
+		padding: 5px 0 0 80px; 
+		font-size: 30px;
+	}	
+	.tapebutton:not(checked) + label:before {
+	top: 2px;
+	left: 0;
+	width: 45px;
+	height: 45px;
+
+	}
+	
+
+
+}
+
+

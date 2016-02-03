@@ -27,7 +27,8 @@ a
 {
 	font-weight:bold;
 	color: #36802D;
-	text-decoration: none; 
+	text-decoration: none;
+	cursor: pointer; 
 }
 
 a:hover
@@ -37,13 +38,14 @@ a:hover
 .page_wrapper
 {
 	width:100%;
+
 }
 
 .content
 {
 	display:inline-block;
 	vertical-align: top;
-	width: calc(100% - 171px);
+	width: calc(100% - 151px);
 	min-height:100%;
 	margin-left:-5px;
 	overflow: auto;
@@ -87,14 +89,14 @@ input
 	margin: 1% 0;
 }
 
-/*
+
 input::-webkit-input-placeholder {color:#234D20;}
 input::-moz-placeholder          {color:#234D20;}
 input:-moz-placeholder           {color:#234D20;}
 input:-ms-input-placeholder      {color:#234D20;}
-*/
 
-.button
+
+.button, .disable_button
 {
 	display:block;
 	text-align: center;
@@ -102,9 +104,15 @@ input:-ms-input-placeholder      {color:#234D20;}
 	border-radius: 3px;
 	background-color: #36802D;
 	color: #F0F7DA;
-	font-size: 25px;
+	font-size: 20px;
 	width:auto;
 	cursor: pointer;
+}
+
+.disable_button
+{
+	background-color: #CDD1DA;
+	cursor: default;
 }
 
 .button:hover
@@ -112,18 +120,59 @@ input:-ms-input-placeholder      {color:#234D20;}
 	background-color: #77AB59;
 }
 
-.back 
+.h_controlls
 {
-	width:auto;
+	width:100%;
+	background-color: #36802D;
+	white-space: nowrap;
+}
+
+.back, .next 
+{
+	width: calc(50% - 23px);
 	padding: 10px;
 	text-align:left;
 	background-color: #36802D;
 	color: #F0F7DA;
 	font-size: 25px;
 	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
 }
 
-.back:hover
+.back:hover, .next:hover
 {
 	background-color: #77AB59;
+}
+
+.next
+{
+	text-align: right;
+}
+
+label
+{
+	font-size: 20px;
+	display:block;
+}
+
+.hint
+{
+	font-style: italic;
+	font-size: 16px;
+}
+
+.green
+{
+	color: #36802D;
+}
+
+.red
+{
+	color: red;
+}
+
+.grey
+{	
+	color: rgb(151, 173, 188);
 }

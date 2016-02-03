@@ -58,18 +58,23 @@
 							<span class="cancel_seconds">45</span>s.
 						</div><!--time_left-->
 						<div class="poll_body">
-							<input type="radio" class="tapebutton" id="v1" name="answer" />
+							<input type="checkbox" class="switcher" id="v1" name="answer" />
 							<label for="v1">To be</label>
-							<input type="radio" class="tapebutton" id="v2" name="answer" />
+							<input type="checkbox" class="switcher" id="v2" name="answer" />
 							<label for="v2">Not to be</label>
-							<input type="radio" class="tapebutton" id="v3" name="answer" />
+							<input type="checkbox" class="switcher" id="v3" name="answer" />
 							<label for="v3">Don't know</label>
-							<input type="radio" class="tapebutton" id="v4" name="answer" />
-							<label for="v4">Are you still there? Are you still there? Are you still there?</label>
+							
 						</div><!--poll_body-->
-						<div class="button_wrapper">
-							<div class="button">Vote</div>
+						<div class="poll_footer">
+							<div class="hint green">
+								Excelent! Now you can change your mind and revote. Attention! You can do it <u>only one time</u>!
+							</div>
 						</div>
+						<div class="button_wrapper">
+							<div class="button">Revote</div>
+						</div>
+
 						<div class="poll_author_info">
 							<div class="poll_author">Author:<span class="author_name"> <a href="#">Eugenie</a></span></div>
 							<div class="poll_date">27.02.2015</div>
@@ -87,7 +92,7 @@
 								<div class="label">15k</div>
 							
 								<div class="sm_heart"></div>
-								<div class="label">5000</div>
+								<div class="label">0</div>
 							</div>
 						</div>
 
@@ -102,10 +107,10 @@
 								<div class="poll_option_header_title">
 									<h3>What is this poll about?</h3>
 								</div>
-								<div class="poll_option_header_arrow_up">
+								<div class="poll_option_header_arrow_down">
 								</div>
 							</div><!--poll_option_header-->
-							<div class="poll_option_body_expand">
+							<div class="poll_option_body_hidden">
 								This poll will help you to verify your english reading skills. After completing this test you can ask me for analisys of your english level.
 
 							</div><!--poll_option_body-->
@@ -118,7 +123,7 @@
 								<div class="poll_option_header_arrow_down">
 								</div>
 							</div><!--poll_option_header-->
-							<div class="poll_option_body_expand">
+							<div class="poll_option_body_hidden">
 								You can add your own variant.
 								<input type="text" name="var" placeholder="Type here...">
 								<div class="button_wrapper">
@@ -136,7 +141,7 @@
 								<div class="poll_option_header_arrow_down">
 								</div>
 							</div><!--poll_option_header-->
-							<div class="poll_option_body_expand">
+							<div class="poll_option_body_hidden">
 								Your answer means that you are very kind person with ability to click virtual buttons.
 								<div class="button_wrapper">
 									<div class="button">Order personal analysis</div>
@@ -158,7 +163,7 @@
 
 	</div><!--content-->
 		</div><!--page_wrapper-->
-<!--		<h1>Welcome to Kiwipoll!!</h1>-->
+
 
 	</body>
 </html>

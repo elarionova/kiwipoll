@@ -4,6 +4,14 @@
 	{
 		font-size: 35px;
 	}
+	.main_login_cell, .main_login_cell>input, .main_login_cell>.button
+	{
+		font-size: 25px;		
+	}
+	.main_banner
+	{
+		height: 150px;
+	}
 
 
 }
@@ -13,5 +21,23 @@
 	.main_banner
 	{
 		margin-top:71px;
+		
 	}
+
+
+}
+
+@media (max-device-width: 1023px), (max-width:1040px)
+{
+	.main_login_cell
+	{
+		display: block;
+		width: 100%;
+	}
+	.main_login_cell:nth-child(1), 	.main_login_cell:nth-child(2), 	.main_login_cell:nth-child(3)
+	{
+		width: 100%;	
+	}
+
+
 }

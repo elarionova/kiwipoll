@@ -1,0 +1,60 @@
+._form_left_side
+{
+	width: 60%;	
+	display:inline-block;
+	vertical-align: top;
+}
+
+._form_right_side
+{
+	width: calc(40% - 41px);
+	display:inline-block;
+	vertical-align: top;
+
+}
+
+.button_wrapper
+{
+	padding: 10px 50% 10px 0%;
+}
+
+.poll_author_info
+{
+	width: 76%;
+	white-space: nowrap;
+
+}
+
+.poll_body
+{
+	width:80%;
+}
+
+.poll_author_info>.poll_author
+{
+	display:inline-block;
+	vertical-align: top;
+	width:50%;
+	text-align: left;
+	margin:0;
+}
+
+.poll_author_info>.poll_date
+{
+	display:inline-block;
+	vertical-align: top;
+	width:50%;
+
+	margin:0;
+}
+
+.poll_footer
+{
+	width:80%;
+	margin-top: 20px;
+}
+
+.time_left
+{
+	margin-bottom:10px;
+}

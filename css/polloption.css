@@ -43,7 +43,7 @@
 	vertical-align: middle;
 	width: 30px;
 	height: 30px;
-	background-image: url("i/ic_menu_down_black_18dp.png");
+	background-image: url("i/ic_menu_down_img_18dp.png");
 	background-position:center;
 	background-repeat: no-repeat;
 
@@ -51,7 +51,7 @@
 
 .poll_option_header_arrow_up
 {
-	background-image: url("i/ic_menu_up_black_18dp.png");
+	background-image: url("i/ic_menu_up_img_18dp.png");
 }
 
 .poll_option_body_expand, .poll_option_body_hidden
@@ -74,5 +74,51 @@
 .poll_option_body_expand>.button_wrapper
 {
 	padding: 10px 15%;
+}
+
+.poll_additional_time
+{
+	width:100%;
+}
+
+.poll_additional_time_cell
+{
+	display:inline-block;
+	vertical-align: middle;
+	width: 30%;
+}
+
+.poll_additional_time_cell>input
+{
+	width: 70%;
+	margin-right: 5px;
+}
+
+.var_wrapper
+{
+	width: 100%;
+}
+
+.var_wrapper_cell
+{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.var_wrapper_cell:nth-child(1)
+{
+	width:70%;
+}
+
+.var_wrapper_cell:nth-child(2)
+{
+	width:25%;
+	text-align: right;
+}
+
+div.poll_prolong, div.poll_countdown
+{
+	display: block;
+	margin: 5px 0px 20px 10px;
 }
 

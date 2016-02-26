@@ -73,11 +73,16 @@ a:hover
 input:focus 
 {
 	outline:none;
+	box-shadow: 0 0px 5px #36802D;
 }
 select:focus {outline:none;}
-textarea:focus {outline:none;}
+textarea:focus 
+{
+	outline:none;
+	box-shadow: 0 0px 5px #36802D;
+}
 
-input
+input, textarea
 {
 	border: none;
 	background-color: transparent;
@@ -175,4 +180,14 @@ label
 .grey
 {	
 	color: rgb(151, 173, 188);
+}
+
+.cross_small
+{
+	width: 30px;
+	height:30px;
+	background-image: url("i/ic_close_black_18dp.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
 }

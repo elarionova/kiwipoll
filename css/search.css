@@ -1,0 +1,56 @@
+.search_block
+{
+	text-align: right;
+	padding: 5px 10px;
+	width: calc(100% - 20px);
+	white-space: nowrap;
+	margin-top: -50px;
+}
+.search_block_cell
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.search_block_cell>input
+{
+	width: 80%;
+}
+
+.magnify
+{
+	width: 30px;
+	height: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("i/ic_magnify_black_24dp.png");
+	cursor: pointer;
+}
+.tags_block
+{
+	width: 100%;
+}
+.tags_block_cell_active, .tags_block_cell_new
+{
+	display:inline-block;
+	vertical-align: middle;
+	padding: 3px;
+	margin: 4px;
+	background-color: #F0F7DA;
+	border-radius: 5px;
+	cursor:pointer;
+}
+.tags_block_cell_active
+{
+	box-shadow: 0px 0px 3px 3px #C9DF8A;
+}
+
+.tag_name:focus
+{
+	outline: none;
+}
+
+.tag_name:before
+{
+	content: "#";
+}

@@ -1,0 +1,39 @@
+@media (max-device-width: 1023px), (max-width:600px)
+{
+	.search_block
+	{
+		margin-top:0;
+		text-align: left;
+	}
+	.search_block_cell>input
+	{
+		width: 100%;
+	}
+	.search_block_cell:first-child
+	{
+		width: calc(100% - 50px);
+	}
+	.magnify
+	{
+		width: 30px;
+	}
+}
+
+@media (max-device-width: 1023px)
+{
+	.search_block_cell:first-child
+	{
+		width: calc(100% - 70px);
+	}
+	.magnify
+	{
+		width: 60px;
+		height: 60px;
+		background-image: url("i/ic_magnify_black_36dp.png");
+	}
+	.search_block_cell, .tag_name
+	{
+		font-size: 25px;
+	}
+
+}

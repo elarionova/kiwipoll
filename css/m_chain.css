@@ -1,0 +1,37 @@
+@media (max-device-width: 1023px), (max-width:950px)
+{
+	.for_chain
+	{
+		display:block;
+		width: 90%;
+		margin-right: 0px;
+		margin-top: 5px;
+	}
+	.chain_steps_cell
+	{
+		width:47%;
+	}
+
+}
+@media (max-width:450px)
+{
+	.chain_steps_cell
+	{
+		display:block;
+		width: 90%;
+
+	}
+	.chain_steps_cell:last-child, .chain_steps_cell:first-child
+	{
+		text-align:center;
+	}
+}
+
+@media (max-device-width: 1023px)
+{
+	.chain_steps_cell
+	{
+		font-size: 22px;
+		width:47%;
+	}
+}

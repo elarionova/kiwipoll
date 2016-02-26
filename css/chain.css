@@ -1,0 +1,32 @@
+.chain_steps
+{
+
+	width:calc(100% - 30px);
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.chain_steps_cell
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.chain_steps_cell:first-child
+{
+	text-align:left;
+}
+
+.chain_steps_cell:last-child
+{
+	text-align:right;
+}
+
+.for_chain
+{
+	display:inline-block;
+	vertical-align: middle;
+	width: 40%;
+
+}

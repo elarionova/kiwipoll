@@ -82,19 +82,79 @@
 			<div class="content">
 				<div class="main_banner">
 				</div><!--main_banner-->
+				<!--
 				<div class="main_control_buttons">
 					<div class="main_control_button">Public Poll</div>
 					<div class="main_control_button  active_main_control_button">Chain Poll</div>
 					<div class="main_control_button">Private Poll</div>
-				</div><!--control_buttons-->
+				</div>-->
+				<!--control_buttons-->
+				
+
 				<h1>Create poll chain</h1>
 											
 
 				<div class="_form">
-					<input type="checkbox" class="switcher" id="prof" name="professional_mode"/>
-					<label for="prof">Professional</label>
-					<hr>
+					<!--<input type="checkbox" class="switcher" id="prof" name="professional_mode"/>
+					<label for="prof">Professional</label>-->
+					<input type="checkbox" class="switcher" id="private" name="private"/>
+					<label for="private">Private poll</label>
+					<div class="_form_line">
+						<div class="_form_line_cell">
+							Name of poll
+						</div>
+						<div class="_form_line_cell">
+							<input type="text" name="Name"></input>
+						</div>
+						<div class="_form_line_cell">
 
+						</div>
+					</div>					
+					<div class="_form_line">
+						<div class="_form_line_cell vertop">
+							Description
+						</div>
+						<div class="_form_line_cell">
+							<textarea type="text" name="descript"></textarea>
+						</div>
+						<div class="_form_line_cell">
+
+						</div>
+					</div>
+					
+					<div class="_form_line">
+						<div class="_form_line_cell vertop">
+							Poll options
+						</div>
+						<div class="_form_line_cell">
+							
+							<input type="checkbox" class="switcher" name="on_one_page" id="onepage" />
+							<label for="onepage">Show all questions on one page</label>
+							<input type="checkbox" class="switcher" id="vote_for_looged_in" name="vote_for_looged_in" />
+							<label for="vote_for_looged_in">Only logged in users can vote</label>
+							<input type="checkbox" class="switcher" id="share_poll" name="share_poll" />
+							<label for="share_poll">Allow users to share this poll</label>
+						</div>	
+					</div>
+
+					<div class="_form_line">
+						<div class="_form_line_cell vertop">
+							View results
+						</div>
+						<div class="_form_line_cell">
+					
+							<input type="radio" class="tapebutton" id="watch_for_all" name="watch_for" />
+							<label for="watch_for_all">All users can see results</label>
+							<input type="radio" class="tapebutton" id="watch_for_looged_in" name="watch_for" />
+							<label for="watch_for_looged_in">Only logged in users can see results</label>
+							<input type="radio" class="tapebutton" id="watch_for_author" name="watch_for" />
+							<label for="watch_for_author">Only author can see results</label>
+						</div>
+					</div>
+							
+					
+
+					<hr>
 					<div class="_form_line">
 						<div class="_form_line_cell">
 							Question #1
@@ -153,25 +213,12 @@
 						
 						<!--@Eugenie: to do block with answeres-->
 						<div class="poll_body">
-							<input type="checkbox" class="switcher" name="on_one_page" id="onepage" />
-							<label for="onepage">Show all questions on one page</label>
-
 							<input type="checkbox" class="switcher" name="multiple" id="mlt" />
 							<label for="mlt">Multiple choice</label>
-
 							<input type="checkbox" class="switcher" name="revote" id="rvt" />
 							<label for="rvt">Users can revote</label>
-
 							<input type="checkbox" class="switcher" id="add_var" name="add_var" />
 							<label for="add_var">Allow users to add their variants</label>
-							<input type="checkbox" class="switcher" id="vote_for_looged_in" name="vote_for_looged_in" />
-							<label for="vote_for_looged_in">Only logged in users can vote</label>
-							<input type="checkbox" class="switcher" id="watch_for_looged_in" name="watch_for_looged_in" />
-							<label for="watch_for_looged_in">Only logged in users can see results</label>
-							<input type="checkbox" class="switcher" id="watch_for_author" name="watch_for_author" />
-							<label for="watch_for_author">Only author can see results</label>
-							<input type="checkbox" class="switcher" id="share_poll" name="share_poll" />
-							<label for="share_poll">Allow users to share this poll</label>
 							<!--<input type="checkbox" class="switcher" id="poll_prolongation" name="poll_prolongation">
 							<label for="poll_prolongation">TTL for this poll</label>
 							<div class="poll_prolong">
@@ -222,12 +269,16 @@
 							<div class="hint red">
 								Something is wrong with our server. Please, try to save this poll again later!
 							</div>
+							<div class="hint green">
+								Congratulations! Your poll has been successfully created! Now share this link to your voters.
+								<div class="poll_link">Link to your poll: <a href="">https://ololo.html</a></div>
+							</div>
 							<div class="_form_line">
 								<div class="one_third_cell">
-									<div class="button">Save as a draft</div>
+									<div class="button">Save</div>
 								</div>
 								<div class="one_third_cell">
-									<div class="button">Save to templates</div>
+									<div class="button">Add to templates</div>
 								</div>
 								<div class="one_third_cell">
 									<div class="button">Publish</div>

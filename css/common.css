@@ -202,3 +202,26 @@ label
 {
 	margin-right: 0;	
 }
+
+.about
+{
+	margin: 2%;
+}
+
+.preview
+{
+	font-size: 18px;
+	margin: 0 4% 3% 4%;
+}
+
+ul 
+{
+  list-style: none;
+
+}
+
+li:before 
+{
+	content:"\2014 \2002";
+
+}

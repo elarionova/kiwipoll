@@ -42,9 +42,9 @@
 	padding-left: 5px;
 }
 
-.verification_ok:after 
+.verification_ok:after, .verification_ok_ru:after 
 {
-	content:"\2714 Done";
+	content:"\2714 Ok";
 	color: green;
 }
 
@@ -54,13 +54,36 @@
 	color: red;	
 }
 
-.verification_cross:after
+.verification_cross:after, .verification_cross_ru:after
 {
 	content: "\2573";
 	color: gray;
 	cursor: pointer;
 
 }
+
+.verification_edit:after
+{
+	content:"\2710 Edit";
+	color: gray;
+	cursor: pointer;
+}
+
+
+.verification_bad_ru:after 
+{
+	content:"\2718 Ошибка";
+	color: red;	
+}
+
+.verification_edit_ru:after
+{
+	content:"\2710 Редактировать";
+	color: gray;
+	cursor: pointer;
+}
+
+
 
 
 

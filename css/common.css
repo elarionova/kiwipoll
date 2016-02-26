@@ -191,3 +191,14 @@ label
 	background-position: center;
 	cursor: pointer;
 }
+.one_third_cell
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 31%;
+	margin-right: 5px;
+}
+.one_third_cell:last-child
+{
+	margin-right: 0;	
+}

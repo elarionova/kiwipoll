@@ -4,6 +4,12 @@
 	margin: 3% 0;
 }
 
+._form_line_one_block
+{
+	margin: 5px 0;
+	width: 97%;
+}
+
 ._form_line_cell
 {
 	display: inline-block;
@@ -47,6 +53,16 @@
 	content:"\2718 Error";
 	color: red;	
 }
+
+.verification_cross:after
+{
+	content: "\2573";
+	color: gray;
+	cursor: pointer;
+
+}
+
+
 
 .region_dropdown
 {

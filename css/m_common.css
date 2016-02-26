@@ -7,7 +7,14 @@
 		margin-left:0px;
 		border: none;
 	}
-
+}
+@media (max-device-width: 1023px), (max-width:930px)
+{
+	.one_third_cell
+	{
+		width: 100%;
+		margin: 5px 0px;
+	}
 }
 
 

@@ -97,7 +97,6 @@
 .gallery_cell_footer_cell
 {
 	display:inline-block;
-	cursor:pointer;
 	vertical-align: middle;
 	
 
@@ -130,27 +129,31 @@ div.label
 
 .sm_fb
 {
-	background-image: url("i/ic_facebook_black_18dp.png");
+	background-image: url("i/ic_facebook_vn_18dp.png");
+	cursor:pointer;
 }
 
 .sm_vk
 {
-	background-image: url("i/ic_vk_black_18dp.png");
+	background-image: url("i/ic_vk_vn_18dp.png");
+	cursor:pointer;
 }
 
 .sm_tw
 {
-	background-image: url("i/ic_twitter_black_18dp.png");
+	background-image: url("i/ic_twitter_vn_18dp.png");
+cursor:pointer;
 }
 
 .sm_heart
 {
-	background-image: url("i/ic_heart_black_18dp.png");
+	background-image: url("i/ic_heart_vn_18dp.png");
+	cursor:pointer;
 }
 
 .sm_account
 {
-	background-image: url("i/ic_account_black_18dp.png");
+	background-image: url("i/ic_account_vn_18dp.png");
 }
 
 .poll_author, .poll_date

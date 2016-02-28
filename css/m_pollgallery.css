@@ -76,27 +76,27 @@
 
 	.sm_fb
 	{
-		background-image: url("i/ic_facebook_black_36dp.png");
+		background-image: url("i/ic_facebook_vn_36dp.png");
 	}
 
 	.sm_vk
 	{
-		background-image: url("i/ic_vk_black_36dp.png");
+		background-image: url("i/ic_vk_vn_36dp.png");
 	}
 
 	.sm_tw
 	{
-		background-image: url("i/ic_twitter_black_36dp.png");
+		background-image: url("i/ic_twitter_vn_36dp.png");
 	}
 
 	.sm_heart
 	{
-		background-image: url("i/ic_heart_black_36dp.png");
+		background-image: url("i/ic_heart_vn_36dp.png");
 	}
 
 	.sm_account
 	{
-		background-image: url("i/ic_account_black_36dp.png");
+		background-image: url("i/ic_account_vn_36dp.png");
 	}
 	.poll_author, .poll_date
 	{

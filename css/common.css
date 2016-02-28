@@ -95,10 +95,10 @@ input, textarea
 }
 
 
-input::-webkit-input-placeholder {color:#234D20;}
-input::-moz-placeholder          {color:#234D20;}
-input:-moz-placeholder           {color:#234D20;}
-input:-ms-input-placeholder      {color:#234D20;}
+input::-webkit-input-placeholder {color:rgb(130, 182, 100);}
+input::-moz-placeholder          {color:rgb(130, 182, 100);}
+input:-moz-placeholder           {color:rgb(130, 182, 100);}
+input:-ms-input-placeholder      {color:rgb(130, 182, 100);}
 
 
 .button, .disable_button

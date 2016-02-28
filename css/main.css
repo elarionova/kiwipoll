@@ -5,7 +5,9 @@
 	background-image: url("i/wall.jpg");
 	height:100px;
 	overflow:hidden;
-	background-size: 100%;
+	/*background-size: 100%;*/
+	background-position: right;
+	background-repeat: no-repeat;
 	opacity:1;
 }
 

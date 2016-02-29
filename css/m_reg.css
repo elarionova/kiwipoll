@@ -30,5 +30,10 @@
 	{
 		width: 5%;
 	}
+	.subcat
+	{
+		text-align: left;
+		font-size: 25px!important;
+	}
 
 }

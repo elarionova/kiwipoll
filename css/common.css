@@ -203,6 +203,19 @@ label
 	margin-right: 0;	
 }
 
+.one_forth_cell
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20%;
+	margin-right: 5px;
+
+}
+.one_forth_cell:last-child
+{
+	margin-right: 0;	
+}
+
 .about
 {
 	margin: 2%;
@@ -224,4 +237,13 @@ li:before
 {
 	content:"\2014 \2002";
 
+}
+
+
+input.professional
+{
+	/*background-color: #F0F7da;*/
+	box-shadow: 0 0px 3px rgba(54,128,45,1);
+	font-style: italic;
+	font-weight: normal;
 }

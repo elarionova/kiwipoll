@@ -10,6 +10,12 @@
 	width: 97%;
 }
 
+.subcat
+{
+	text-align: right;
+	font-size: 16px!important;
+}
+
 ._form_line_cell
 {
 	display: inline-block;

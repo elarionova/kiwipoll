@@ -117,7 +117,7 @@ div.label
 	padding-right:10px;
 }
 
-.sm_vk, .sm_fb, .sm_tw, .sm_account, .sm_heart
+.sm_vk, .sm_fb, .sm_tw, .sm_account, .sm_heart, .sm_heart_liked
 {
 	width:24px;
 	height: 24px;
@@ -142,13 +142,20 @@ div.label
 .sm_tw
 {
 	background-image: url("i/ic_twitter_vn_18dp.png");
-cursor:pointer;
+	cursor:pointer;
 }
 
 .sm_heart
 {
 	background-image: url("i/ic_heart_vn_18dp.png");
 	cursor:pointer;
+}
+
+.sm_heart_liked
+{
+	background-image: url("i/ic_heart_s_18dp.png");
+	cursor:pointer;
+
 }
 
 .sm_account

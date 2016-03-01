@@ -68,6 +68,20 @@
 
 }
 
+
+.verification_bad_ru:after 
+{
+	content:"\2718 Ошибка";
+	color: red;	
+}
+
+.verification_edit_ru, .verification_edit, .verification_delete_ru, .verification_delete, .verification_download, .verification_download_ru
+{
+	display: inline-block;
+
+	padding-right: 10px;
+}
+
 .verification_edit:after
 {
 	content:"\2710 Edit";
@@ -76,12 +90,6 @@
 }
 
 
-.verification_bad_ru:after 
-{
-	content:"\2718 Ошибка";
-	color: red;	
-}
-
 .verification_edit_ru:after
 {
 	content:"\2710 Редактировать";
@@ -89,7 +97,30 @@
 	cursor: pointer;
 }
 
-
+.verification_delete:after
+{
+	content:"\232b Delete";
+	color: gray;
+	cursor: pointer;
+}
+.verification_delete_ru:after
+{
+	content:"\232b Удалить";
+	color: gray;
+	cursor: pointer;
+}
+.verification_download_ru:after
+{
+	content:"\2193 Скачать отчет";
+	color: gray;
+	cursor: pointer;
+}
+.verification_download:after
+{
+	content:"\2193 Download report";
+	color: gray;
+	cursor: pointer;
+}
 
 
 

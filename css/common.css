@@ -61,6 +61,34 @@ a:hover
 	margin: 10px 5%;
 	padding: 1% 5%;
 	background-color: #F0F7DA;
+
+}
+
+.notification_cross
+{
+	width:75%;
+	margin: 10px 5%;
+	padding: 1% 60px 1% 5%;
+	background-color: #F0F7DA;
+	position:relative;
+}
+
+.notification_close:before
+{
+	position: absolute;
+	top: 0;
+	right: 10;
+	cursor:pointer;
+	content:"\2716 Close";
+}
+
+.notification_close_ru:before
+{
+	position: absolute;
+	top: 0;
+	right: 10;
+	content:"\2716 Закрыть";
+	cursor:pointer;
 }
 
 ._form
@@ -246,4 +274,10 @@ input.professional
 	box-shadow: 0 0px 3px rgba(54,128,45,1);
 	font-style: italic;
 	font-weight: normal;
+}
+
+.vermid
+{
+	display: inline-block;
+	vertical-align: middle;
 }

@@ -50,4 +50,21 @@
 
 		font-size: 20px;
 	}
+
+	.notification_close:before
+	{
+		font-size: 25px;
+		content:"\2716 Close";
+	}
+
+	.notification_close_ru:before
+	{
+		font-size: 25px;
+		content:"\2716 Закрыть";
+	}
+
+	.notification_cross
+	{
+		font-size: 30px;
+	}
 }

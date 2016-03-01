@@ -9,6 +9,11 @@
 	{
 		font-size: 30px;
 	}
+	.subcat
+	{
+		text-align: left;
+		font-size: 25px!important;
+	}
 
 
 }
@@ -33,7 +38,6 @@
 	.subcat
 	{
 		text-align: left;
-		font-size: 25px!important;
+	
 	}
-
 }

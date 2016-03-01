@@ -1,0 +1,169 @@
+.plan_gallery
+{
+	width:100%;
+	text-align: justify;
+}
+
+.plan_gallery:after
+{
+	content: "";
+	width: 100%;
+	display: inline-block;
+}
+
+.plan_gallery_cell, .na_plan_gallery_cell
+{
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #36802D;
+	border-radius: 5px;
+	white-space: normal;
+	margin: 10px 5px;
+	position:relative;
+	max-width: 20%;
+	min-width: 270px;
+
+}
+
+
+.na_plan_gallery_cell
+{
+	border: 1px solid #adadad;
+	color: gray;
+}
+
+.na_plan_section
+{
+	border-top: 1px solid #adadad;
+}
+
+.na_plan_section:nth-child(2n+1)
+{
+	background-color: rgba(200, 200, 200, 0.6);
+}
+
+.na_plan_gallery_cell:hover
+{
+	box-shadow: 0 0 10px rgba(200, 200, 200, 0.6);
+}
+
+
+.plan_gallery_cell:hover
+{
+	box-shadow: 0 0 10px rgba(119,171,89,1);
+}
+
+.plan_section
+{
+	border-top:1px solid #36802D;
+}
+
+.plan_section:nth-child(2n)
+{
+	background-color: rgba(240, 247, 218, 0.5);
+}
+
+.plan_section_header
+{
+	cursor:pointer;
+/*	border-bottom: 0.5px dashed #36802D;*/
+}
+
+
+.plan_section_header:hover
+{
+	background-color: #C9DF8A;
+}
+
+.plan_title
+{
+	width: 75%;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px 10px 0 10px;
+	text-align:left;
+
+}
+
+.plan_content_expand, .plan_content_hidden
+{
+	padding: 0 5px 5px 5px;
+	max-height: 8000px; 
+	text-align: center;
+	font-weight: bold;
+}
+.plan_content_hidden
+{
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.plan_for_list
+{
+	text-align: left;
+}
+
+.plan_label
+{	
+	position:absolute;
+	border-radius: 0 0 0 5px;
+	top:0;
+	right:0;
+	padding: 3px;
+	color: #FFF;
+	background-color: green;
+}
+
+
+.verification_question
+{
+	cursor: pointer;
+	display:inline-block;
+	vertical-align: top;
+	color: green;
+	width:auto;
+	text-align: left;
+	position: relative;
+}
+.verification_question:before
+{
+	/*content:"\2370";*/
+	content:"\2754";
+	
+}
+
+.plan_label_hint_deg
+{
+	position: absolute;
+	transform: rotate(45deg);
+	width: 10px;
+	height: 10px;
+	background-color: #FFF;
+	border-right: 1px solid gray;
+	border-bottom:1px solid gray;
+	bottom:-6;
+	right: 5;
+	z-index: 20;
+}
+
+.plan_label_hint
+{
+	display: none;
+	right:0;
+	bottom: 25;
+	background-color: #FFF;
+	position: absolute;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding: 7px;
+	z-index: 10;
+	font-size: 12px;
+	min-width: 150px;
+	max-width: 170px;
+
+}
+
+.verification_question:hover .plan_label_hint
+{
+	display: block;
+}

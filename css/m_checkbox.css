@@ -24,6 +24,10 @@
 	.switcher:checked + label:after {
 	left: 68px;
 	}
+	.switcher + label:hover
+	{
+		background-color: transparent;
+	}
 
 
 }
@@ -31,6 +35,11 @@
 
 @media (max-device-width: 1023px)  and (orientation:landscape)
 {
+	.switcher + label:hover
+	{
+		background-color: transparent;
+	}
+
 	.switcher:not(checked) + label 
 	{
 

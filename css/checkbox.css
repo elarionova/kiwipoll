@@ -10,6 +10,11 @@ cursor: pointer;
 
 }
 
+.switcher + label:hover
+{
+	background-color: #F0F7DA;
+}
+
 .switcher:not(checked) {
 position: absolute;
 opacity: 0;

@@ -11,6 +11,10 @@ cursor: pointer;
 display: block;
 
 }
+.tapebutton + label:hover
+{
+	background-color: #F0F7DA;
+}
 
 .tapebutton:not(checked) {
 position: absolute;

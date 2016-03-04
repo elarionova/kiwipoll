@@ -27,11 +27,22 @@
 	}
 }
 
-@media (max-device-width: 1023px)
+@media (max-device-width: 1023px)   and (orientation:portrait)
 {
 	.chain_steps_cell
 	{
-		font-size: 22px;
+		font-size: 45px;
+		padding: 55px 0px;
 		width:47%;
+	}
+}
+
+@media (max-device-width: 1023px)  and (orientation:landscape)
+{
+	.chain_steps_cell
+	{
+		font-size: 30px;
+		width:47%;
+		padding: 25px 0px;
 	}
 }

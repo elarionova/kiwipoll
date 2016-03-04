@@ -19,7 +19,7 @@
 }
 
 
-@media (max-device-width: 1023px)
+@media (max-device-width: 1023px) and (orientation: landscape)
 {
 	div.notification
 	{
@@ -40,9 +40,10 @@
 	{
 		font-size: 30px;
 		box-shadow: 0 0px 3px rgba(0,0,0,1);
+		border: 1px solid rgba(35, 77, 32,1);
 	}
 
-	.button, .back, .next
+	.button, .back, .next, .disable_button
 	{
 		font-size: 30px;
 	}
@@ -51,7 +52,11 @@
 
 		font-size: 20px;
 	}
+	.hint_reg
+	{
 
+		font-size: 20px;
+	}
 	.notification_close:before
 	{
 		font-size: 25px;
@@ -72,5 +77,74 @@
 	.one_third_cell
 	{
 		font-size: 30px;
+	}
+}
+
+
+@media (max-device-width: 1023px) and (orientation: portrait)
+{
+	div.notification
+	{
+		font-size:45px;
+	}
+
+	h1
+	{
+		font-size: 5em;
+	}
+
+	h3
+	{
+		font-size: 3em;	
+	}
+
+	input,textarea
+	{
+		font-size: 50px;
+		box-shadow: 0 0px 3px rgba(0,0,0,1);
+		border: 1px solid rgba(35, 77, 32,1);
+	}
+
+	.button, .back, .next, .disable_button
+	{
+		font-size: 50px;
+	}
+	.hint
+	{
+
+		font-size: 30px;
+	}
+
+	.hint_reg
+	{
+
+		font-size: 40px;
+	}
+
+	label
+	{
+		font-size: 25.8px;
+	}
+
+	.notification_close:before
+	{
+		font-size: 50px;
+		content:"\2716 Close";
+	}
+
+	.notification_close_ru:before
+	{
+		font-size: 50px;
+		content:"\2716 Закрыть";
+	}
+
+	.notification_cross
+	{
+		font-size: 50px;
+	}
+
+	.one_third_cell
+	{
+		font-size: 50px;
 	}
 }

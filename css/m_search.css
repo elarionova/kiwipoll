@@ -19,7 +19,32 @@
 	}
 }
 
-@media (max-device-width: 1023px)
+@media (max-device-width: 1023px) and (orientation:portrait)
+{
+	.search_block_cell:first-child
+	{
+		width: calc(100% - 80px);
+	}
+	.magnify
+	{
+		width: 60px;
+		height: 60px;
+		background-image: url("i/ic_magnify_black_36dp.png");
+	}
+	.search_block_cell, .tag_name
+	{
+		font-size: 45px;
+	}
+
+	.tags_block_cell_active, .tags_block_cell_new
+	{
+		padding: 6px;
+		margin: 8px;
+	}
+
+}
+
+@media (max-device-width: 1023px) and (orientation:landscape)
 {
 	.search_block_cell:first-child
 	{

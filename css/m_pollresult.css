@@ -5,7 +5,20 @@
 }
 
 
-@media (max-device-width: 1023px)
+@media (max-device-width: 1023px) and (orientation:portrait)
+{
+	.result_bar
+	{
+		height: 67px;
+		
+	}
+	.result_percent
+	{
+		font-size: 37px;
+	}
+}
+
+@media (max-device-width: 1023px) and (orientation:landscape)
 {
 	.result_bar
 	{

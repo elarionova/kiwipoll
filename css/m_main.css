@@ -1,4 +1,36 @@
-@media (max-device-width: 1023px)
+@media (max-device-width: 1023px) and (orientation:portrait)
+{
+	div.main_control_button, .active_main_control_button
+	{
+		font-size: 45px;
+		padding: 25px 0;
+	}
+	.main_login_cell, .main_login_cell>input, .main_login_cell>.button
+	{
+		font-size: 45px;
+		padding-top: 10px;	
+
+	}
+	.main_banner
+	{
+		height: auto;
+		min-height: 150px;
+	}
+	.main_login
+	{
+		width: 50%;
+
+	}
+	.main_banner_left_block
+	{
+		width: 45%;
+	}
+
+
+}
+
+
+@media (max-device-width: 1023px) and (orientation:landscape)
 {
 	div.main_control_button, .active_main_control_button
 	{
@@ -15,6 +47,8 @@
 
 
 }
+
+
 
 @media (max-device-width: 1023px), (max-width:700px)
 {

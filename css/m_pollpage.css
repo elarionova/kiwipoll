@@ -24,7 +24,16 @@
 }
 
 
-@media (max-device-width: 1023px)
+@media (max-device-width: 1023px)  and (orientation:portrait)
+{
+	.time_left
+	{
+		font-size: 45px;
+	}
+
+}
+
+@media (max-device-width: 1023px) and (orientation:landscape)
 {
 	.time_left
 	{

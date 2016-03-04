@@ -1,4 +1,4 @@
-@media (max-device-width: 1023px)
+@media (max-device-width: 1023px) and (orientation: landscape)
 {
 	._form_line_cell:nth-child(1), ._form_line_cell:nth-child(2), ._form_line_cell:nth-child(3)
 	{
@@ -13,6 +13,32 @@
 	{
 		text-align: left;
 		font-size: 25px!important;
+	}
+
+
+}
+
+
+@media (max-device-width: 1023px) and (orientation:portrait)
+{
+	._form_line_cell:nth-child(1), ._form_line_cell:nth-child(2)
+	{
+		font-size: 50px;	
+	}
+
+	._form_line_cell:nth-child(3)
+	{
+		font-size: 40px;
+	}
+
+	.region_dropdown
+	{
+		font-size: 50px;
+	}
+	.subcat
+	{
+		text-align: left;
+		font-size: 45px!important;
 	}
 
 

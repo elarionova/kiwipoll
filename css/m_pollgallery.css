@@ -45,12 +45,12 @@
 }
 
 
-@media (max-device-width:1023px)
+@media (max-device-width:1023px)  and (orientation:portrait)
 {
 	
 	div.pass
 	{
-		font-size:25px;
+		font-size:30px;
 		margin: 0;
 	}
 	div.poll_over
@@ -63,7 +63,7 @@
 		font-size:30px;
 	}
 
-	.sm_vk, .sm_fb, .sm_tw, .sm_account, .sm_heart
+	.sm_vk, .sm_fb, .sm_tw, .sm_account, .sm_heart, .sm_heart_liked
 	{
 		width:60px;
 		height: 60px;
@@ -97,6 +97,95 @@
 	.sm_account
 	{
 		background-image: url("i/ic_account_vn_36dp.png");
+	}
+	.sm_heart_liked
+	{
+		background-image: url("i/ic_heart_s_36dp.png");
+	}
+	.poll_author, .poll_date
+	{
+		font-size: 35px;
+	}
+	.cancel_notification, .cancel_date
+	{
+		display: inline-block;
+		width:auto;
+		vertical-align: top;
+		text-align: none;
+		padding: 3% 0;
+		font-size: 35px;
+	}
+
+	.cancel_notification
+	{
+		padding-left: 3%;
+	}
+
+	.poll_description
+	{
+		font-size: 35px;
+	}
+
+}
+
+
+
+@media (max-device-width:1023px)  and (orientation:landscape)
+{
+	
+	div.pass
+	{
+		font-size:25px;
+		margin: 0;
+	}
+	div.poll_over
+	{
+		height: calc(100% - 63px);
+	}
+
+	div.label
+	{
+		font-size:30px;
+	}
+
+	.sm_vk, .sm_fb, .sm_tw, .sm_account, .sm_heart, .sm_heart_liked
+	{
+		width:60px;
+		height: 60px;
+		background-repeat: no-repeat;
+		background-position: center;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0 10px;
+	}
+
+	.sm_fb
+	{
+		background-image: url("i/ic_facebook_vn_36dp.png");
+	}
+
+	.sm_vk
+	{
+		background-image: url("i/ic_vk_vn_36dp.png");
+	}
+
+	.sm_tw
+	{
+		background-image: url("i/ic_twitter_vn_36dp.png");
+	}
+
+	.sm_heart
+	{
+		background-image: url("i/ic_heart_vn_36dp.png");
+	}
+
+	.sm_account
+	{
+		background-image: url("i/ic_account_vn_36dp.png");
+	}
+	.sm_heart_liked
+	{
+		background-image: url("i/ic_heart_s_36dp.png");
 	}
 	.poll_author, .poll_date
 	{

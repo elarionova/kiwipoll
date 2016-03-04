@@ -5,11 +5,20 @@
 }
 
 
-@media (max-device-width: 1023px)
+@media (max-device-width: 1023px)  and (orientation:landscape)
 {
 	.poll_option_body_expand
 	{
 		font-size: 25px;
+	}
+
+}
+
+@media (max-device-width: 1023px)  and (orientation:portrait)
+{
+	.poll_option_body_expand
+	{
+		font-size: 40px;
 	}
 
 }

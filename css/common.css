@@ -189,7 +189,7 @@ label
 	display:block;
 }
 
-.hint
+.hint, .hint_reg
 {
 	font-style: italic;
 	font-size: 16px;

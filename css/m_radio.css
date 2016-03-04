@@ -1,6 +1,6 @@
 
 
-@media (max-device-width: 1023px)
+@media (max-device-width: 1023px) and (orientation:landscape)
 {
 	.tapebutton:not(checked) + label 
 	{
@@ -13,6 +13,27 @@
 	left: 0;
 	width: 45px;
 	height: 45px;
+
+	}
+	
+
+
+}
+
+
+@media (max-device-width: 1023px) and (orientation:portrait)
+{
+	.tapebutton:not(checked) + label 
+	{
+
+		padding: 5px 0 0 100px; 
+		font-size: 50px;
+	}	
+	.tapebutton:not(checked) + label:before {
+	top: 2px;
+	left: 0;
+	width: 65px;
+	height: 65px;
 
 	}
 	

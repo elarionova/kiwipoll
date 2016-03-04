@@ -65,7 +65,7 @@
 
 .poll_option_body_expand
 {
-	max-height: 1000px;
+	max-height: 10000px;
 	transition: 2s max-height linear;
 	opacity:1;
 	display: block;	

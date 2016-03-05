@@ -161,3 +161,7 @@
 {
 	background-color: transparent;
 }
+.substrate:nth-child(2n+1)
+{
+	background-color: #F0F7DA;
+}

@@ -58,7 +58,7 @@
 	border-top:1px solid #36802D;
 }
 
-.plan_section:nth-child(2n)
+.plan_section:nth-child(2n), .answer_section:nth-child(2n)
 {
 	background-color: rgba(240, 247, 218, 0.5);
 }

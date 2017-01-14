@@ -122,3 +122,35 @@ div.poll_prolong, div.poll_countdown
 	margin: 5px 0px 20px 10px;
 }
 
+.quest_list
+{
+	cursor: pointer;
+	display: inline-block;
+}
+
+.quest_list:hover
+{
+	font-weight: bold;
+}
+
+.quest_list:after
+{
+	content:"\25BC";
+
+}
+.age_period
+{
+	display:inline-block;
+	margin-right: 10px;
+}
+
+
+.l_arr:before
+{
+	content:"\2190";
+}
+
+.r_arr:after
+{
+	content:"\2192";
+}
